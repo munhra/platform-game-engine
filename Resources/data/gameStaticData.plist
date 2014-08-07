@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>enemies</key>
+	<dict>
+		<key>furball</key>
+		<dict>
+			<key>damage</key>
+			<string>5</string>
+			<key>defaultimage</key>
+			<string>furball.png</string>
+			<key>dificult</key>
+			<string>2</string>
+			<key>jump</key>
+			<string>250</string>
+			<key>sight</key>
+			<string>300</string>
+			<key>speed</key>
+			<string>2500</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

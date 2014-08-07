@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="60" tileheight="60">
+ <properties>
+  <property name="bg_layer1" value="florest_bg1"/>
+  <property name="bg_layer2" value="florest_bg2"/>
+  <property name="bg_layer3" value="florest_bg3"/>
+ </properties>
+ <tileset firstgid="1" name="official_60" tilewidth="60" tileheight="60">
+  <image source="official_60.png" width="720" height="660"/>
+  <tile id="25">
+   <properties>
+    <property name="name" value="furball"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="collision" value="1"/>
+    <property name="name" value="coin_frm"/>
+    <property name="type" value="4"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="collision" value="1"/>
+    <property name="name" value="shippart_frm"/>
+    <property name="type" value="3"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="name" value="player"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="collision" value="0"/>
+    <property name="name" value="anim_florest_flower"/>
+    <property name="type" value="0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="walls" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztl+0NgjAQhquC+IEVFT8GcAAHcAAHcAAHcADH9xrbcDYXbeiZK8Qnef9wXHkghQul6gcHaQEmjtICTJykBZg4SwswcZEWYOIqLcDELaJXc0kwcG/ZN4JkkJzRJYZHwDmU8xJSQVa/kGqB/90dqsbbkZozhT8HzZ533l2iL3PQPP+ptAQD2qZr+8gnpRkQw/8+0mKgmplh3neNMrHHZpA5pEQ13JcF1HOiHrq26R1Dig9OC/U+M/DMq9HaG/X6d9Sor7bZQnZEXXvrUXWXb71r64Cvt0d9T776CSs=
+  </data>
+ </layer>
+ <layer name="enemies" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1bkRADAIAzDmyP6DskGKhKeRWnM+d0QAQI+zPQAABlT8u1vHa/Zzy44E/A8AnQ==
+  </data>
+ </layer>
+ <layer name="animated" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzzEKACAMA8D+Q///TlcRBAstONxBpwxpIgAAgKyxXUde7dZlx1teZR592T9+2UGPBZ6/BIs=
+  </data>
+ </layer>
+ <layer name="player" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAAAIA7CnsX9ESxxE2BIsAQAAoG2uA7yzY1gAJw==
+  </data>
+ </layer>
+ <layer name="hazzards" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7DJwb9CnnngoE2aAAAAwK3pzxZgQABR
+  </data>
+ </layer>
+</map>
